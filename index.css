@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700);
+
+html, body {
+	display: flex;
+	justify-content: center;
+
+	background: #ddd;
+}
+
+main {
+}
+
+a.ninja {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+a.ninja:hover {
+	text-decoration: underline;
+}
+
+span.right {
+	float: right;
+}
+
+main {
+	flex: 1 1 auto;
+	display: flex;
+	flex-direction: column;
+
+	width: 800px;
+	margin: 32px;
+	padding: 32px;
+
+	background: #fff;
+	border: 2px solid #ccc;
+	box-shadow: 6px 6px 16px rgba(0, 0, 0, .1);
+	
+	font-family: 'Source Sans Pro';
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+
+	width: 100%;
+}
+
+#name {
+	margin: 0;
+
+	text-align: center;
+	font-weight: 300;
+}
+
+#personal {
+	text-align: center;
+	font-size: 14px;
+}
+
+h2 {
+	border-bottom: 1px solid #888;
+	margin-bottom: 4px;
+
+	font-weight: 300;
+}
+
+section {
+	line-height: 115%;
+}
+
+section p {
+	margin: 8px 0 0 0;
+}
+
+ul {
+	margin: 0 0 4px 0;
+}
