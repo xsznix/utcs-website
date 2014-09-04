@@ -55,6 +55,11 @@ header {
 	font-size: 14px;
 }
 
+#links {
+	display: flex;
+	justify-content: center;
+}
+
 h2 {
 	border-bottom: 1px solid #888;
 	margin-bottom: 4px;
@@ -88,6 +93,7 @@ ul {
 }
 
 .skills {
+	flex: 1 0;
 	margin-left: 8px;
 }
 
@@ -101,6 +107,36 @@ ul {
 @media screen {
 	.print-only {
 		display: none;
+	}
+}
+
+@media screen and (max-width:900px) {
+	html, body {
+		justify-content: justify;
+		width: 100%;
+
+		background: none;
+	}
+
+	main {
+		width: 100%;
+		margin: 0;
+		padding: 16px;
+
+		background: none;
+		border: none;
+		box-shadow: none;
+	}
+}
+
+@media screen and (max-width: 660px) {
+	.extra {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	span.right {
 	}
 }
 
