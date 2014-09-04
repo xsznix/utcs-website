@@ -4,18 +4,15 @@ html, body {
 	display: flex;
 	justify-content: center;
 
-	background: #ddd;
+	background: #eee;
 }
 
-main {
-}
-
-a.ninja {
-	color: inherit;
+a {
+	color: #2980b9;
 	text-decoration: inherit;
 }
 
-a.ninja:hover {
+a:hover {
 	text-decoration: underline;
 }
 
@@ -33,7 +30,7 @@ main {
 	padding: 32px;
 
 	background: #fff;
-	border: 2px solid #ccc;
+	border: 2px solid #ddd;
 	box-shadow: 6px 6px 16px rgba(0, 0, 0, .1);
 	
 	font-family: 'Source Sans Pro';
@@ -66,7 +63,7 @@ h2 {
 }
 
 section {
-	line-height: 115%;
+	line-height: 140%;
 }
 
 section p {
@@ -75,4 +72,67 @@ section p {
 
 ul {
 	margin: 0 0 4px 0;
+}
+
+.skill-type {
+	display: flex;
+	justify-content: justify;
+	margin: 8px 0;
+}
+
+.skill-type-title {
+	width: 76px;
+	margin-right: 8px;
+	font-weight: 700;
+	text-align: right;
+}
+
+.skills {
+	margin-left: 8px;
+}
+
+#print-notice {
+	margin: 32px 0 0 0;
+	text-align: center;
+	color: #aaa;
+	font-size: 14px;
+}
+
+@media screen {
+	.print-only {
+		display: none;
+	}
+}
+
+@media print {
+	.screen-only {
+		display: none;
+	}
+
+	html, body {
+		justify-content: justify;
+		width: 100%;
+
+		background: none;
+	}
+
+	main {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+
+		background: none;
+		border: none;
+		box-shadow: none;
+	}
+
+	section {
+		line-height: 115%;
+		font-size: 14px;
+	}
+
+	a {
+		color: inherit;
+		text-decoration: inherit;
+	}
 }
