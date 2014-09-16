@@ -30,8 +30,7 @@ main {
 	padding: 32px;
 
 	background: #fff;
-	border: 2px solid #ddd;
-	box-shadow: 6px 6px 16px rgba(0, 0, 0, .1);
+	box-shadow: 0px 6px 16px rgba(0, 0, 0, .1);
 	
 	font-family: 'Source Sans Pro';
 }
@@ -162,9 +161,9 @@ ul {
 		box-shadow: none;
 	}
 
-	section {
+	header div, seader span, section {
 		line-height: 115%;
-		font-size: 14px;
+		font-size: 12px;
 	}
 
 	a {
