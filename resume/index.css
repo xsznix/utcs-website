@@ -161,9 +161,8 @@ ul {
 		box-shadow: none;
 	}
 
-	header div, seader span, section {
-		line-height: 115%;
-		font-size: 12px;
+	header div, header span, section {
+		font-size: 12px !important;
 	}
 
 	a {
