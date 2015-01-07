@@ -75,7 +75,7 @@ section p {
 }
 
 ul {
-	margin: 0 0 4px 0;
+	margin: 0;
 }
 
 .skill-type {
@@ -96,7 +96,7 @@ ul {
 	margin-left: 8px;
 }
 
-#print-notice {
+.fine-print {
 	margin: 32px 0 0 0;
 	text-align: center;
 	color: #aaa;
